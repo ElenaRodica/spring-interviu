@@ -1,0 +1,17 @@
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\domain\Product.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\exposition\ProductController.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\infra\ProductRepository.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\infra\ProductSdj.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\infra\PriceRepository.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\ConsultProductService.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\domain\UnknownObjectException.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\exposition\ProductMapperService.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\ConsultAllProducts.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\CreateProductService.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\SpringinterviuApplication.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\infra\PriceSdj.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\domain\Price.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\dto\ProductDto.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\ConsultPriceService.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\DeleteProductService.java
+C:\Spring Boot Interviu\springinterviu\springinterviu\src\main\java\com\example\managementstore\service\UpdateProductService.java
