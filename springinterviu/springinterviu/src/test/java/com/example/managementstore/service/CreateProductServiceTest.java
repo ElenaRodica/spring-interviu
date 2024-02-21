@@ -1,4 +1,4 @@
-/*package com.example.managementstore.service;
+package com.example.managementstore.service;
 
 import com.example.managementstore.domain.Price;
 import com.example.managementstore.domain.Product;
@@ -10,9 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
+import java.util.Optional;
+import java.util.Set;
 
- */
-/*import java.util.Set;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 @ActiveProfiles("test")
@@ -21,21 +23,17 @@ public class CreateProductServiceTest {
     @Autowired
     private CreateProductService sut;
     @Autowired
-    ProductSdj productSdj;
-
-    private Product product;
-    private Price price;
+    PriceSdj priceSdj;
 
     @Autowired
-    PriceSdj priceSdj;
+    ProductSdj productSdj;
+
+    public Price price;
 
     @BeforeEach
     void init() {
 
-        price = Price.builder()
-                .firstPrice(10.00)
-                .priceAfterDiscounts(5.00)
-                .build();
+        price = Price.builder().id("priceId").firstPrice(10.00).priceAfterDiscounts(5.00).build();
 
         priceSdj.save(price);
 
@@ -44,16 +42,13 @@ public class CreateProductServiceTest {
     @Test
     void shouldCreateProduct() {
 
-        product = Product.builder()
-                .id("test")
-                .name("product")
-                .prices(Set.of(price))
-                .build();
-
+        Product product = Product.builder().id("test").name("product").prices(Set.of(price)).build();
+        sut.createProduct(product);
+        Optional<Product> insertedProduct = productSdj.findById("test");
+        assertTrue(insertedProduct.isPresent());
+        assertEquals("test", insertedProduct.get().getId());
 
     }
 
 }
 
-
- */
