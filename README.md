@@ -5,6 +5,7 @@ Local instructions
 
 Build and run the project on your machine
 
+
 Do maven clean from Maven Lifecycle to compile the project
 After that you can run the application running the SpringInterviuApplication  class that has a main method
 This will show the class in the configuration pannel and for subsequent runs, you can run the application from there.
